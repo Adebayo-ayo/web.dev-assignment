@@ -540,7 +540,7 @@ nav {
 }
 
 
-.baseline-box h3 a:hover{
+.baseline-box h3 a:hover {
   text-decoration: underline;
 }
 
@@ -567,7 +567,7 @@ nav {
 
 }
 
-.BaselineP a:hover{
+.BaselineP a:hover {
   text-decoration: underline;
 }
 
@@ -576,12 +576,13 @@ nav {
   font-size: 20px;
   font-style: normal;
   /* font-weight: 400; */
-   color: rgb(32, 33, 36);
+  color: rgb(32, 33, 36);
   /* color: rgb(0, 21, 255); */
   text-decoration: none;
   line-height: 2rem;
 }
-.baseline-box a:nth-child(3):hover{
+
+.baseline-box a:nth-child(3):hover {
   text-decoration: underline;
 }
 
@@ -595,10 +596,11 @@ nav {
 }
 
 /* new for UI desgin */
-.grandUI{
+.grandUI {
   width: 100%;
   background-color: rgb(242, 244, 245);
 }
+
 .UI-parent {
   /* background-color: rgb(242, 244, 245); */
   flex: 1;
@@ -660,7 +662,7 @@ nav {
 }
 
 
-.UI-box h3 a:hover{
+.UI-box h3 a:hover {
   text-decoration: underline;
 }
 
@@ -690,7 +692,7 @@ nav {
 
 }
 
-.UI_P a:hover{
+.UI_P a:hover {
   text-decoration: underline;
 }
 
@@ -699,12 +701,13 @@ nav {
   font-size: 20px;
   font-style: normal;
   /* font-weight: 400; */
-   color: rgb(32, 33, 36);
+  color: rgb(32, 33, 36);
   /* color: rgb(0, 21, 255); */
   text-decoration: none;
   line-height: 2rem;
 }
-.UI-box a:nth-child(3):hover{
+
+.UI-box a:nth-child(3):hover {
   text-decoration: underline;
 }
 
@@ -718,10 +721,13 @@ nav {
 }
 
 /* new for web vitals */
-.webvitals-grandbox{
+
+.webvitals-grandbox {
   width: 100%;
-  background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+
 }
+
 .webvitals-parent {
   /* background-color: rgb(242, 244, 245); */
   flex: 1;
@@ -782,7 +788,7 @@ nav {
 }
 
 
-.webvitals-box h3 a:hover{
+.webvitals-box h3 a:hover {
   text-decoration: underline;
 }
 
@@ -809,7 +815,7 @@ nav {
 
 }
 
-.webvitals_P a:hover{
+.webvitals_P a:hover {
   text-decoration: underline;
 }
 
@@ -818,16 +824,386 @@ nav {
   font-size: 20px;
   font-style: normal;
   /* font-weight: 400; */
-   color: rgb(32, 33, 36);
+  color: rgb(32, 33, 36);
   /* color: rgb(0, 21, 255); */
   text-decoration: none;
   line-height: 2rem;
 }
-.webvitals-box a:nth-child(3):hover{
+
+.webvitals-box a:nth-child(3):hover {
   text-decoration: underline;
 }
 
 .webvitals-box p:nth-child(4) {
+  font-size: 16px;
+  font-style: normal;
+  /* font-weight: 400; */
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+}
+
+/* pregressive */
+.Pregressive-grandbox {
+  width: 100%;
+    background-color: rgb(242, 244, 245);
+
+}
+
+.Pregressive-parent {
+  /* background-color: rgb(242, 244, 245); */
+  flex: 1;
+  display: flex;
+  margin: 0px 200px;
+  /* flex-direction: ; */
+  /* border: 2px solid blue; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  gap: 18px;
+
+}
+
+.Pregressive-box {
+  align-items: center;
+  /* background-color: rgb(242, 244, 245); */
+  border-radius: 0px;
+  width: 33.3%;
+  padding: 20px 5px;
+  /* border: 2px solid blue; */
+}
+
+.Pregressive-parent .Pregressive-box:nth-child(1) {
+  /* background-color: rgb(242, 244, 245); */
+  border-radius: 0px;
+  width: 30.3%;
+  margin-left: 20px;
+  padding: 20px 5px;
+}
+
+
+.Pregressive-box H2 {
+  /* color: palevioletred; */
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0px;
+  color: rgb(26, 26, 28);
+}
+
+
+.txtt a {
+  /* display: inline-block; */
+  color: rgb(23, 89, 227);
+  border: 2px solid rgb(20, 67, 174);
+  border-radius: 40px;
+  padding: 10px 42px;
+  text-decoration: none;
+
+}
+
+
+.Pregressive-box h3 a {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+}
+
+
+.Pregressive-box h3 a:hover {
+  text-decoration: underline;
+}
+
+.Pregressive_P {
+  /* color: red; */
+  margin: 30px 0px 40px 0px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(32, 33, 36);
+
+}
+
+.Pregressive-box p {
+  font-size: 16px;
+  margin: 30px 0px 40px 0px;
+}
+
+
+
+.Pregressive_P a {
+  /* color: rgb(32, 33, 36); */
+  color: rgb(23, 89, 227);
+  text-decoration: none;
+
+}
+
+.Pregressive_P a:hover {
+  text-decoration: underline;
+}
+
+
+.Pregressive-box a:nth-child(3) {
+  font-size: 20px;
+  font-style: normal;
+  /* font-weight: 400; */
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+  line-height: 2rem;
+}
+
+.Pregressive-box a:nth-child(3):hover {
+  text-decoration: underline;
+}
+
+.Pregressive-box p:nth-child(4) {
+  font-size: 16px;
+  font-style: normal;
+  /* font-weight: 400; */
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+}
+
+/* Accessible */
+
+.Accessible-grandbox {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.Accessible-parent {
+  /* background-color: rgb(242, 244, 245); */
+  flex: 1;
+  display: flex;
+  margin: 0px 200px;
+  /* flex-direction: ; */
+  /* border: 2px solid blue; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  gap: 18px;
+
+}
+
+.Accessible-box {
+  align-items: center;
+  /* background-color: rgb(242, 244, 245); */
+  border-radius: 0px;
+  width: 33.3%;
+  padding: 20px 5px;
+  /* border: 2px solid blue; */
+}
+
+.Accessible-parent .Accessible-box:nth-child(1) {
+  /* background-color: rgb(242, 244, 245); */
+  border-radius: 0px;
+  width: 30.3%;
+  margin-left: 20px;
+  padding: 20px 5px;
+}
+
+
+.Accessible-box H2 {
+  /* color: palevioletred; */
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0px;
+  color: rgb(26, 26, 28);
+}
+
+
+.txtt a {
+  /* display: inline-block; */
+  color: rgb(23, 89, 227);
+  border: 2px solid rgb(20, 67, 174);
+  border-radius: 40px;
+  padding: 10px 42px;
+  text-decoration: none;
+
+}
+
+
+.Accessible-box h3 a {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+}
+
+
+.Accessible-box h3 a:hover {
+  text-decoration: underline;
+}
+
+.Accessible_P {
+  /* color: red; */
+  margin: 30px 0px 40px 0px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(32, 33, 36);
+
+}
+
+.Accessible-box p {
+  font-size: 16px;
+  margin: 30px 0px 40px 0px;
+}
+
+
+
+.Accessible_P a {
+  /* color: rgb(32, 33, 36); */
+  color: rgb(23, 89, 227);
+  text-decoration: none;
+
+}
+
+.Accessible_P a:hover {
+  text-decoration: underline;
+}
+
+
+.Accessible-box a:nth-child(3) {
+  font-size: 20px;
+  font-style: normal;
+  /* font-weight: 400; */
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+  line-height: 2rem;
+}
+
+.Accessible-box a:nth-child(3):hover {
+  text-decoration: underline;
+}
+
+.Accessible-box p:nth-child(4) {
+  font-size: 16px;
+  font-style: normal;
+  /* font-weight: 400; */
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+}
+
+
+
+/* Payment_and_id */
+
+.Payment_and_id-grandbox {
+  width: 100%;
+    background-color: rgb(242, 244, 245);
+
+}
+
+.Payment_and_id-parent {
+  /* background-color: rgb(242, 244, 245); */
+  flex: 1;
+  display: flex;
+  margin: 0px 200px;
+  /* flex-direction: ; */
+  /* border: 2px solid blue; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  gap: 18px;
+
+}
+
+.Payment_and_id-box {
+  align-items: center;
+  /* background-color: rgb(242, 244, 245); */
+  border-radius: 0px;
+  width: 33.3%;
+  padding: 20px 5px;
+  /* border: 2px solid blue; */
+}
+
+.Payment_and_id-parent .Payment_and_id-box:nth-child(1) {
+  /* background-color: rgb(242, 244, 245); */
+  border-radius: 0px;
+  width: 30.3%;
+  margin-left: 20px;
+  padding: 20px 5px;
+}
+
+
+.Payment_and_id-box H2 {
+  /* color: palevioletred; */
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0px;
+  color: rgb(26, 26, 28);
+}
+
+
+.txtt a {
+  /* display: inline-block; */
+  color: rgb(23, 89, 227);
+  border: 2px solid rgb(20, 67, 174);
+  border-radius: 40px;
+  padding: 10px 42px;
+  text-decoration: none;
+
+}
+
+
+.Payment_and_id-box h3 a {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+}
+
+
+.Payment_and_id-box h3 a:hover {
+  text-decoration: underline;
+}
+
+.Payment_and_id_P {
+  /* color: red; */
+  margin: 30px 0px 40px 0px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(32, 33, 36);
+
+}
+
+.Payment_and_id-box p {
+  font-size: 16px;
+  margin: 30px 0px 40px 0px;
+}
+
+
+
+.Payment_and_id_P a {
+  /* color: rgb(32, 33, 36); */
+  color: rgb(23, 89, 227);
+  text-decoration: none;
+
+}
+
+.Payment_and_id_P a:hover {
+  text-decoration: underline;
+}
+
+
+.Payment_and_id-box a:nth-child(3) {
+  font-size: 20px;
+  font-style: normal;
+  /* font-weight: 400; */
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+  line-height: 2rem;
+}
+
+.Payment_and_id-box a:nth-child(3):hover {
+  text-decoration: underline;
+}
+
+.Payment_and_id-box p:nth-child(4) {
   font-size: 16px;
   font-style: normal;
   /* font-weight: 400; */
