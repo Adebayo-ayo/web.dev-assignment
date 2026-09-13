@@ -494,7 +494,7 @@ nav {
 
 .baseline-box {
   align-items: center;
-  background-color: rgb(242, 244, 245);
+  /* background-color: rgb(242, 244, 245); */
   border-radius: 0px;
   width: 33.3%;
   padding: 20px 5px;
@@ -502,7 +502,7 @@ nav {
 }
 
 .baseline-parent .baseline-box:nth-child(1) {
-  background-color: rgb(242, 244, 245);
+  /* background-color: rgb(242, 244, 245); */
   border-radius: 0px;
   width: 30.3%;
   margin-left: 20px;
@@ -533,9 +533,15 @@ nav {
 .baseline-box h3 a {
   font-size: 20px;
   font-weight: 400;
-  /* color: rgb(26, 26, 28); */
-  color: rgb(0, 21, 255);
+  line-height: 2rem;
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
   text-decoration: none;
+}
+
+
+.baseline-box h3 a:hover{
+  text-decoration: underline;
 }
 
 .BaselineP {
@@ -561,6 +567,10 @@ nav {
 
 }
 
+.BaselineP a:hover{
+  text-decoration: underline;
+}
+
 
 .baseline-box a:nth-child(3) {
   font-size: 20px;
@@ -576,6 +586,248 @@ nav {
 }
 
 .baseline-box p:nth-child(4) {
+  font-size: 16px;
+  font-style: normal;
+  /* font-weight: 400; */
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+}
+
+/* new for UI desgin */
+.grandUI{
+  width: 100%;
+  background-color: rgb(242, 244, 245);
+}
+.UI-parent {
+  /* background-color: rgb(242, 244, 245); */
+  flex: 1;
+  display: flex;
+  margin: 0px 200px;
+  /* flex-direction: ; */
+  /* border: 2px solid blue; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  gap: 18px;
+
+}
+
+.UI-box {
+  align-items: center;
+  /* background-color: rgb(242, 244, 245); */
+  border-radius: 0px;
+  width: 33.3%;
+  padding: 20px 5px;
+  /* border: 2px solid blue; */
+}
+
+.UI-parent .UI-box:nth-child(1) {
+  /* background-color: rgb(242, 244, 245); */
+  border-radius: 0px;
+  width: 30.3%;
+  margin-left: 20px;
+  padding: 20px 5px;
+}
+
+
+.UI-box H2 {
+  /* color: palevioletred; */
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0px;
+  color: rgb(26, 26, 28);
+}
+
+
+.txtt a {
+  /* display: inline-block; */
+  color: rgb(23, 89, 227);
+  border: 2px solid rgb(20, 67, 174);
+  border-radius: 40px;
+  padding: 10px 42px;
+  text-decoration: none;
+
+}
+
+
+.UI-box h3 a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2rem;
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+}
+
+
+.UI-box h3 a:hover{
+  text-decoration: underline;
+}
+
+.UI_P {
+  /* color: red; */
+  margin: 30px 0px 40px 0px;
+  line-height: 1.5rem;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(32, 33, 36);
+
+}
+
+.UI-box p {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.6rem;
+  margin: 30px 0px 20px 0px;
+}
+
+
+
+.UI_P a {
+  /* color: rgb(32, 33, 36); */
+  color: rgb(23, 89, 227);
+  text-decoration: none;
+
+}
+
+.UI_P a:hover{
+  text-decoration: underline;
+}
+
+
+.UI-box a:nth-child(3) {
+  font-size: 20px;
+  font-style: normal;
+  /* font-weight: 400; */
+   color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+  line-height: 2rem;
+}
+.UI-box a:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+.UI-box p:nth-child(4) {
+  font-size: 16px;
+  font-style: normal;
+  /* font-weight: 400; */
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+}
+
+/* new for web vitals */
+.webvitals-grandbox{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.webvitals-parent {
+  /* background-color: rgb(242, 244, 245); */
+  flex: 1;
+  display: flex;
+  margin: 0px 200px;
+  /* flex-direction: ; */
+  /* border: 2px solid blue; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  gap: 18px;
+
+}
+
+.webvitals-box {
+  align-items: center;
+  /* background-color: rgb(242, 244, 245); */
+  border-radius: 0px;
+  width: 33.3%;
+  padding: 20px 5px;
+  /* border: 2px solid blue; */
+}
+
+.webvitals-parent .webvitals-box:nth-child(1) {
+  /* background-color: rgb(242, 244, 245); */
+  border-radius: 0px;
+  width: 30.3%;
+  margin-left: 20px;
+  padding: 20px 5px;
+}
+
+
+.webvitals-box H2 {
+  /* color: palevioletred; */
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0px;
+  color: rgb(26, 26, 28);
+}
+
+
+.txtt a {
+  /* display: inline-block; */
+  color: rgb(23, 89, 227);
+  border: 2px solid rgb(20, 67, 174);
+  border-radius: 40px;
+  padding: 10px 42px;
+  text-decoration: none;
+
+}
+
+
+.webvitals-box h3 a {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+}
+
+
+.webvitals-box h3 a:hover{
+  text-decoration: underline;
+}
+
+.webvitals_P {
+  /* color: red; */
+  margin: 30px 0px 40px 0px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(32, 33, 36);
+
+}
+
+.webvitals-box p {
+  font-size: 16px;
+  margin: 30px 0px 40px 0px;
+}
+
+
+
+.webvitals_P a {
+  /* color: rgb(32, 33, 36); */
+  color: rgb(23, 89, 227);
+  text-decoration: none;
+
+}
+
+.webvitals_P a:hover{
+  text-decoration: underline;
+}
+
+
+.webvitals-box a:nth-child(3) {
+  font-size: 20px;
+  font-style: normal;
+  /* font-weight: 400; */
+   color: rgb(32, 33, 36);
+  /* color: rgb(0, 21, 255); */
+  text-decoration: none;
+  line-height: 2rem;
+}
+.webvitals-box a:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+.webvitals-box p:nth-child(4) {
   font-size: 16px;
   font-style: normal;
   /* font-weight: 400; */
